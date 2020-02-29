@@ -1,0 +1,12 @@
+https://www.bilibili.com/video/av78375801?p=8
+
+git config --list
+
+git 分为本地库，暂存库，git仓库三部分
+
+git add <file>
+
+git commit -m <msg>
+
+git rm <file>
+
