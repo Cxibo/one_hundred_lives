@@ -10,3 +10,6 @@ git commit -m <msg>
 
 git rm <file>
 
+git clone https://github.com/Cxibo/one_hundred_lives.git
+
+git push
