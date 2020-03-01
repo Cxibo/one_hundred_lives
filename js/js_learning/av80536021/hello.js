@@ -11,3 +11,6 @@ function func(){
 
 }
 func();
+
+var a = 10;
+
