@@ -44,8 +44,34 @@ func();
 console.log(web2);
 
 // Uncaught ReferenceError: web1 is not defined
-{
-    let web1 = 'aaa';
-}
-console.log(web1);
+// {
+//     let web1 = 'aaa';
+// }
+// console.log(web1);
 
+// p14
+// var 会污染window对象，let不会
+
+// var screenLeft = 99;
+let screenLeft = 99
+console.log(window.screenLeft);
+
+// 用let避免重复声明
+// let web3 = 11;
+// let web3 = 11;
+// Uncaught SyntaxError: Identifier 'web3' has already been declared
+
+//p15
+const HOST = {
+    url: "www.baidu.com",
+    port: "30"
+}
+
+// 冻结，无法修改
+Object.freeze(HOST);
+
+HOST.port = '89';
+console.log(HOST.port);
+// 30
+
+//p16
